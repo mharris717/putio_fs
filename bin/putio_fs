@@ -1,0 +1,6 @@
+load File.expand_path(File.dirname(__FILE__)) + "/../lib/putio_fs.rb"
+
+dir = PutioFs::PutDir.new
+
+# Usage: #{$0} mountpoint [mount_options]
+FuseFS.start(dir,*ARGV)
