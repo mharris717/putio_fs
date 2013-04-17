@@ -22,13 +22,16 @@ Gem::Specification.new do |s|
     ".document",
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
+    "VERSION",
     "bin/putio_fs",
     "lib/putio_fs.rb",
     "lib/putio_fs/put_dir.rb",
     "lib/putio_fs/putio_api.rb",
+    "putio_fs.gemspec",
     "spec/putio_fs_spec.rb",
     "spec/spec_helper.rb"
   ]
