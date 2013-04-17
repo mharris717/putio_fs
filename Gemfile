@@ -15,3 +15,4 @@ end
 
 gem 'mharris_ext'
 gem 'rfusefs'
+gem 'json'
